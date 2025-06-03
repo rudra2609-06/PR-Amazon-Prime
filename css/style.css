@@ -184,21 +184,20 @@
 		font-size: 3.5rem;
 		font-weight: 900; 
 		font-size: 3.5em; 
-		margin-bottom: 0.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.hero-content p:nth-child(2){
 		font-weight: 600; 
 		font-family: 'Montserrat', sans-serif;
-		font-size: 1rem;
-		margin-bottom: 2.5rem;
+		font-size: 1.3rem;
+		margin-bottom: 3rem;
 		color: #FFFFF0;
 
 	}
-	
-	
+		
 	.hero-content p{
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 		font-weight: 500; 
 		font-family: 'Roboto', sans-serif;
 		font-size: 1rem;
@@ -210,8 +209,9 @@
 	.hero-content input,.ready-to-watch .ready-to-watch-btn input{
 		font-family: 'Roboto', sans-serif;
 		text-align: left;
-		padding-left: 20px;
-		padding: 20px 85px;
+		margin-left: 20px;
+		padding: 24px 16px 18px 16px;
+		width: 30%;
 		background-color: transparent;
 		border: 1px solid #60605f;
 		border-radius: 4px;
@@ -230,11 +230,12 @@
 	.hero-content button,.ready-to-watch .ready-to-watch-btn button{
 		cursor: pointer;
 		font-family: 'Roboto', sans-serif;
-		padding: 10px 20px;
+		padding: 0.75rem 1.5rem;
+		font-weight: 400;
+		font-size: 23px;
 		background: #E50914;
 		border: 1px solid #E50914;
 		border-radius: 4px;
-		font-size: 24px;
 		font-weight: 500;
 		color: #fff;
 		display: inline-flex;
@@ -255,7 +256,7 @@
 
 	.hero .curve{
 		position: relative;
-		height: 6.75rem;
+		height: 8.5rem;
 		overflow-x: hidden;
 		z-index: 1;
 	}
@@ -364,6 +365,7 @@
 	.trending .reason-icon svg{
 		margin-left: 0.50rem;
 		margin-right: 0.50rem;	
+		margin-bottom: 0.50rem;
 	}
 	/* trending section ends   */
 
@@ -414,11 +416,21 @@
 		margin-top: 1rem;
 	}
 	.ready-to-watch .ready-to-watch-btn input{
-		padding: 20px 180px;
+		padding: 24px 16px 15px 16px;
+		min-width: 40%;
 	}
+
+	.ready-to-watch .ready-to-watch-btn input::placeholder{
+		font-size: 16px;
+		font-weight: 400;
+		color: #B9B9B9;
+	}
+
+
 	.ready-to-watch .ready-to-watch-btn button{
-		padding: 20px 50px;
+		padding: 0.75rem 1.5rem;
 		font-weight: 500;
+		font-size: 23px;
 	}
 	/* FAQ section ends */
 
@@ -427,25 +439,27 @@
 		padding: 30px 150px;
 		background-color: #000000;
 		font-family: Roboto,sans-serif;	
-		color: #B3B396;
+		color: rgba(255,255,255,0.7);
 	}
 
 	.footer-top .footer-top-text p a{
 		text-decoration-line: underline;
 	}
 
-	
-
 	.footer-content .footer-list ul li a{
 		text-decoration-line: underline;
 		padding: 10px 0;
-		font-size: 15px;
+		font-size: 15px;		
+		transition: all 0.3s ease-in-out;
+	}
+
+	.footer-content .footer-list ul li a:hover{
+		color: #C11119;
 	}
 
 	.footer-bottom .footer-bottom-copyright h5,.footer-bottom .footer-bottom-copyright p{
 		font-size: 15px;
 		font-weight: 400;
-		color: #B3B396;
 		margin-bottom: 2.5rem;
 	}
 
